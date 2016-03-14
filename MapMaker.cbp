@@ -12,7 +12,12 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -27,6 +32,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -39,8 +49,20 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Architecture.h" />
+		<Unit filename="include/Composant.h" />
+		<Unit filename="include/Edifice.h" />
+		<Unit filename="include/Etage.h" />
+		<Unit filename="include/Piece.h" />
+		<Unit filename="include/Quartier.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="resources/cb.bmp" />
+		<Unit filename="src/Architecture.cpp" />
+		<Unit filename="src/Composant.cpp" />
+		<Unit filename="src/Edifice.cpp" />
+		<Unit filename="src/Etage.cpp" />
+		<Unit filename="src/Piece.cpp" />
+		<Unit filename="src/Quartier.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
