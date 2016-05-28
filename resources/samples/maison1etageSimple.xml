@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<MapRoot name="Maison simple avec un seul étage">
+    <Quartier>
+        <Edifices>
+            <Edifice>
+                <superficie>60</superficie>
+                <longueur></longueur>
+                <largeur></largeur>
+                <nom>Maison</nom>
+                <nbAccess></nbAccess>
+                <Etages>
+                    <Etage>
+                        <superficie>60</superficie>
+                        <longueur></longueur>
+                        <largeur></largeur>
+                        <nom>1er étage</nom>
+                        <nbAccessEtageSup>0</nbAccessEtageSup>
+                        <Pieces>
+                            <Piece>
+                                <superficie>14</superficie>
+                                <longueur></longueur>
+                                <largeur></largeur>
+                                <nom>Cuisine</nom>
+                                <nbAccess>1</nbAccess>
+                            </Piece>
+                            <Piece>
+                                <superficie>32</superficie>
+                                <longueur></longueur>
+                                <largeur></largeur>
+                                <nom>Salon</nom>
+                                <nbAccess>2</nbAccess>
+                            </Piece>
+                            <Piece>
+                                <superficie>14</superficie>
+                                <longueur></longueur>
+                                <largeur></largeur>
+                                <nom>Chambre</nom>
+                                <nbAccess>1</nbAccess>
+                            </Piece>
+                        </Pieces>
+
+                    </Etage>
+                </Etages>
+            </Edifice>
+        </Edifices>
+    </Quartier>
+</MapRoot>
