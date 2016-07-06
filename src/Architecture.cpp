@@ -12,3 +12,11 @@ Architecture::Architecture(const Architecture& other)
     setLongueur(other.getLongueur());
     setNom(other.getNom());
 }
+
+void Architecture::toString()
+{
+    std::cout<<"Architecture : "<<getNom()<<std::endl;
+    std::cout<<"Superficie : "<<getSuperficie()<<std::endl;
+    std::cout<<"Longueur : "<<getLongueur()<<std::endl;
+    std::cout<<"Largeur : "<<getLargeur()<<std::endl;
+}

@@ -1,48 +1,21 @@
 <?xml version="1.0"?>
 
 <MapRoot name="Maison simple avec un seul étage">
-    <Quartier>
-        <Edifices>
-            <Edifice>
-                <superficie>60</superficie>
-                <longueur></longueur>
-                <largeur></largeur>
-                <nom>Maison</nom>
-                <nbAccess></nbAccess>
-                <Etages>
-                    <Etage>
-                        <superficie>60</superficie>
-                        <longueur></longueur>
-                        <largeur></largeur>
-                        <nom>1er étage</nom>
-                        <nbAccessEtageSup>0</nbAccessEtageSup>
-                        <Pieces>
-                            <Piece>
-                                <superficie>14</superficie>
-                                <longueur></longueur>
-                                <largeur></largeur>
-                                <nom>Cuisine</nom>
-                                <nbAccess>1</nbAccess>
-                            </Piece>
-                            <Piece>
-                                <superficie>32</superficie>
-                                <longueur></longueur>
-                                <largeur></largeur>
-                                <nom>Salon</nom>
-                                <nbAccess>2</nbAccess>
-                            </Piece>
-                            <Piece>
-                                <superficie>14</superficie>
-                                <longueur></longueur>
-                                <largeur></largeur>
-                                <nom>Chambre</nom>
-                                <nbAccess>1</nbAccess>
-                            </Piece>
-                        </Pieces>
-
-                    </Etage>
-                </Etages>
-            </Edifice>
-        </Edifices>
-    </Quartier>
+    <Quartiers>
+        <Quartier nom="Pomme d'api" environnement="Urbain">
+            <Edifices>
+                <Edifice nom="Maison" superficie="60">
+                    <Etages>
+                        <Etage nom="1er étage" superficie="60" nbAccessEtageSup="0">
+                            <Pieces>
+                                <Piece nom="Cuisine" superficie="14" nbAccess="1" />
+                                <Piece nom="Salon" superficie="32" nbAccess="2" />
+                                <Piece nom="Chambre" superficie="14" nbAccess="1" />
+                            </Pieces>
+                        </Etage>
+                    </Etages>
+                </Edifice>
+            </Edifices>
+        </Quartier>
+    </Quartiers>
 </MapRoot>

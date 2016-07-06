@@ -1,6 +1,7 @@
 #ifndef ARCHITECTURE_H
 #define ARCHITECTURE_H
 
+#include <iostream>
 #include <string>
 
 using std::string;
@@ -22,6 +23,8 @@ class Architecture
         void setLongueur(double val) { longueur = val; }
         string getNom() const { return nom; }
         void setNom(string val) { nom = val; }
+
+        void toString();
 
     protected:
 

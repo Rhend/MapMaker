@@ -12,6 +12,8 @@ using std::shared_ptr;
 class Etage : public Architecture
 {
     public:
+        Etage(const Architecture& archi, int nbAccessEtageSup = 1)
+            : Architecture(archi), nbAccessEtageSup(nbAccessEtageSup) {};
         Etage(double superficie, double largeur, double longueur, string nom, int nbAccessEtageSup = 1)
             : Architecture(superficie, largeur, longueur, nom), nbAccessEtageSup(nbAccessEtageSup) {};
         Etage(double superficie, string nom, int nbAccessEtageSup = 1)

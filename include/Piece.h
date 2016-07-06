@@ -14,6 +14,8 @@ using std::shared_ptr;
 class Piece : public Architecture
 {
     public:
+        Piece(const Architecture& archi, int nbAccess = 1)
+            : Architecture(archi), nbAccess(nbAccess) {};
         Piece(double superficie, double largeur, double longueur, string nom, int nbAccess = 1)
             : Architecture(superficie, largeur, longueur, nom), nbAccess(nbAccess) {};
         Piece(double superficie, string nom, int nbAccess = 1)
